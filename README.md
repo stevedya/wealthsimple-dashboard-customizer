@@ -40,6 +40,9 @@ If you encounter any issues, have suggestions, or need assistance, please feel f
 
 ## Development
 
+To develop you must npm install
+`npm install`
+
 To compile the styles while working on the project please use this command: `npx tailwindcss -i ./css/input.css -o ./main.css --watch`
 
 For production releases please compile with: `npx tailwindcss -i ./css/input.css -o ./main.css --minify`
