@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Wealthsimple dashboard customizer",
+    "version": "1.0",
+    "permissions": [
+      "activeTab"
+    ],
+    "author": "steven.ts@gmail.com",  
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Wealthsimple Dashboard Customizer"
+    }
+    "content_scripts": [
+      {
+        "matches": [
+          "https://my.wealthsimple.com/*"
+        ],
+        "js": [
+          "content.js"
+        ]
+      }
+    ]
+  }
+  
