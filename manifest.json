@@ -3,7 +3,8 @@
     "name": "Wealthsimple dashboard customizer",
     "version": "1.0",
     "permissions": [
-      "activeTab"
+      "activeTab",
+      "storage"
     ],
     "author": "steven.ts@gmail.com",  
     "action":{
