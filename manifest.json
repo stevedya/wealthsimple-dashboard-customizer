@@ -9,7 +9,7 @@
     "action":{
         "default_popup": "index.html",
         "default_title": "Wealthsimple Dashboard Customizer"
-    }
+    },
     "content_scripts": [
       {
         "matches": [
