@@ -38,6 +38,12 @@ Once the Wealthsimple Dashboard Customizer extension is installed, follow these 
 
 If you encounter any issues, have suggestions, or need assistance, please feel free to [open an issue](https://https://github.com/stevedya/wealthsimple-dashboard-customizer/issues). We appreciate your feedback and will do our best to address it.
 
+## Development
+
+To compile the styles while working on the project please use this command: `npx tailwindcss -i ./css/input.css -o ./main.css --watch`
+
+For production releases please compile with: `npx tailwindcss -i ./css/input.css -o ./main.css --minify`
+
 ## License
 
 This extension is released under the [MIT License](https://opensource.org/licenses/MIT).
