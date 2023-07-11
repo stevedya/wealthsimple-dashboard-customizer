@@ -4,7 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
     chrome.storage.sync.get(['linesToHide'], function(result) {
       const linesToHide = result.linesToHide;
       const linesToHideInput = document.getElementById('linesToHide');
-      linesToHideInput.value = linesToHide;
+      if (linesToHide) {
+        linesToHideInput.value = linesToHide;
+      }
     })
 
     form.addEventListener('submit', function(event) {
